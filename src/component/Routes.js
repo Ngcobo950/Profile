@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from './Home';
 import CV from './CV';
@@ -8,14 +8,13 @@ import About from './About';
 
 //creating the routes for the page that we are creating
 export default () => (
-	<BrowserRouter>
+    <BrowserRouter>
 		<Switch>
 			<Route path="/" exact component={Home}/>
-			<Route path="/CV" exact component={CV}/>
-			<Route path="/Projects" exact component={Projects}/>
-			<Route path="/About" exact component={About}/>
+			<Route path="/cv" exact component={CV}/>
+			<Route path="/projects" exact component={Projects}/>
+			<Route path="/about" exact component={About}/>
 
 		</Switch>
-
 	</BrowserRouter>
 )
