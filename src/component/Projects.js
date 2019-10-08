@@ -4,9 +4,9 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Navbar from './Navbar.js';
-import weather from './images/weather.png';
-import snake_game from './images/snake_game.png';
-import online from './images/online.png'
+import weather from './images/weather.PNG';
+import snake_game from './images/snake_game.PNG';
+import online from './images/online.PNG'
 
 
 class Projects extends React.Component {
