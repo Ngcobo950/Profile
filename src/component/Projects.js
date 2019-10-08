@@ -4,8 +4,9 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Navbar from './Navbar.js';
-import html from './images/html.jpg';
-import react from './images/react.png';
+import weather from './images/weather.png';
+import snake_game from './images/snake_game.png';
+import online from './images/online.png'
 
 
 class Projects extends React.Component {
@@ -19,7 +20,7 @@ class Projects extends React.Component {
         		<Row className="row">
         			<div>
         				<Card style={{ width: '18rem' }}>
-						 <Card.Img variant="top" src={html} />
+						 <Card.Img variant="top" src={weather} />
 						  <Card.Body>
 						    <Card.Title>Online store</Card.Title>
 						     <Button variant="primary">click</Button>
@@ -29,7 +30,7 @@ class Projects extends React.Component {
 				
 					<div>
 						<Card style={{ width: '18rem' }}>
-						  <Card.Img variant="top" src={react} />
+						  <Card.Img variant="top" src={snake_game} />
 						  <Card.Body>
 						    <Card.Title>Weather app</Card.Title>
 						    <Button variant="primary">click</Button>
@@ -39,7 +40,7 @@ class Projects extends React.Component {
 			
 						<div>
 						<Card style={{ width: '18rem' }}>
-						  <Card.Img variant="top" src={react} />
+						  <Card.Img variant="top" src={online} />
 						  <Card.Body>
 						    <Card.Title>Snake game</Card.Title>
 						    <Button variant="primary">click</Button>
