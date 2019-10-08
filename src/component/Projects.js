@@ -22,7 +22,7 @@ class Projects extends React.Component {
         				<Card style={{ width: '18rem' }}>
 						 <Card.Img variant="top" src={weather} alt='snake' />
 						  <Card.Body>
-						    <Card.Title>Online store</Card.Title>
+						    <Card.Title>Weather app</Card.Title>
 						     <Button variant="primary">click</Button>
 						  </Card.Body>
 						</Card>
@@ -32,7 +32,7 @@ class Projects extends React.Component {
 						<Card style={{ width: '18rem' }}>
 						  <Card.Img variant="top" src={snake_game} alt='snake' />
 						  <Card.Body>
-						    <Card.Title>Weather app</Card.Title>
+						    <Card.Title>Snake game</Card.Title>
 						    <Button variant="primary">click</Button>
 						  </Card.Body>
 						</Card>
@@ -42,7 +42,7 @@ class Projects extends React.Component {
 						<Card style={{ width: '18rem' }}>
 						  <Card.Img variant="top" src={online} alt='snake' />
 						  <Card.Body>
-						    <Card.Title>Snake game</Card.Title>
+						    <Card.Title>Online store</Card.Title>
 						    <Button variant="primary">click</Button>
 						  </Card.Body>
 						</Card>
