@@ -22,8 +22,13 @@ class Projects extends React.Component {
         				<Card style={{ width: '20rem' ,height: '24rem'}}>
 						 <Card.Img variant="top" src={weather} alt='weather' />
 						  <Card.Body>
+<<<<<<< HEAD
 						    <Card.Title>Weather</Card.Title>
 						     <Button variant="primary" href="https://Ngcobo950.github.io/MusaWeather/">click</Button>
+=======
+						    <Card.Title>Weather app</Card.Title>
+						     <Button variant="primary">click</Button>
+>>>>>>> 88ee9dd0a79092f25aafba15b706960c50956dd3
 						  </Card.Body>
 						</Card>
 					</div>
@@ -32,8 +37,13 @@ class Projects extends React.Component {
 						<Card style={{ width: '20rem' ,height: '24rem' }}>
 						  <Card.Img variant="top" src={online} alt='Online' />
 						  <Card.Body>
+<<<<<<< HEAD
 						    <Card.Title>Online store</Card.Title>
 						    <Button variant="primary" href="https://ngcobo950.github.io/Musa/">click</Button>
+=======
+						    <Card.Title>Snake game</Card.Title>
+						    <Button variant="primary">click</Button>
+>>>>>>> 88ee9dd0a79092f25aafba15b706960c50956dd3
 						  </Card.Body>
 						</Card>
 						</div>
@@ -42,8 +52,13 @@ class Projects extends React.Component {
 						<Card style={{ width: '20rem' ,height: '24rem' }}>
 						  <Card.Img variant="top" src={snake_game} alt='snake' />
 						  <Card.Body>
+<<<<<<< HEAD
 						    <Card.Title>Snake game</Card.Title>
 						    <Button variant="primary" href="https://musa-snake.herokuapp.com/">click</Button>
+=======
+						    <Card.Title>Online store</Card.Title>
+						    <Button variant="primary">click</Button>
+>>>>>>> 88ee9dd0a79092f25aafba15b706960c50956dd3
 						  </Card.Body>
 						</Card>
 						</div>
