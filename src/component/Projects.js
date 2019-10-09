@@ -24,8 +24,6 @@ class Projects extends React.Component {
 						  <Card.Body>
 						    <Card.Title>Weather</Card.Title>
 						     <Button variant="primary" href="https://Ngcobo950.github.io/MusaWeather/">click</Button>
-						    <Card.Title>Weather app</Card.Title>
-						     <Button variant="primary">click</Button>
 						  </Card.Body>
 						</Card>
 					</div>
@@ -36,8 +34,6 @@ class Projects extends React.Component {
 						  <Card.Body>
 						    <Card.Title>Online store</Card.Title>
 						    <Button variant="primary" href="https://ngcobo950.github.io/Musa/">click</Button>
-						    <Card.Title>Snake game</Card.Title>
-						    <Button variant="primary">click</Button>
 						  </Card.Body>
 						</Card>
 						</div>
@@ -48,8 +44,6 @@ class Projects extends React.Component {
 						  <Card.Body>
 						    <Card.Title>Snake game</Card.Title>
 						    <Button variant="primary" href="https://musa-snake.herokuapp.com/">click</Button>
-						    <Card.Title>Online store</Card.Title>
-						    <Button variant="primary">click</Button>
 						  </Card.Body>
 						</Card>
 						</div>
