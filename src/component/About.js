@@ -46,6 +46,13 @@ class About extends React.Component{
    					
 				</Row>
 
+            <h3 id="line">Contacts</h3><br/>
+            <div id="font">
+              <h5 className="fa fa-lg fa-envelope "> ngcobomusa950@gmail.com</h5><br/>
+              <h5 className="fa fa-lg fa-phone "> 0685375246</h5><br/>
+              <h5 className="fa fa-lg fa-phone "> 0748131795</h5>
+            </div>
+
 
 			</div>	
 

@@ -4,9 +4,9 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Navbar from './Navbar.js';
-import weather from './images/weather.png';
-import snake_game from './images/snake_game.png';
-import online from './images/online.png'
+import weather from './images/weather.PNG';
+import snake_game from './images/snake_game.PNG';
+import online from './images/online.PNG'
 
 
 class Projects extends React.Component {
@@ -19,31 +19,31 @@ class Projects extends React.Component {
         		<br/>
         		<Row className="row">
         			<div>
-        				<Card style={{ width: '18rem' }}>
-						 <Card.Img variant="top" src={weather} alt='snake' />
+        				<Card style={{ width: '20rem' ,height: '24rem'}}>
+						 <Card.Img variant="top" src={weather} alt='weather' />
 						  <Card.Body>
-						    <Card.Title>Online store</Card.Title>
-						     <Button variant="primary">click</Button>
+						    <Card.Title>Weather</Card.Title>
+						     <Button variant="primary" href="https://Ngcobo950.github.io/MusaWeather/">click</Button>
 						  </Card.Body>
 						</Card>
 					</div>
 				
 					<div>
-						<Card style={{ width: '18rem' }}>
-						  <Card.Img variant="top" src={snake_game} alt='snake' />
+						<Card style={{ width: '20rem' ,height: '24rem' }}>
+						  <Card.Img variant="top" src={online} alt='Online' />
 						  <Card.Body>
-						    <Card.Title>Weather app</Card.Title>
-						    <Button variant="primary">click</Button>
+						    <Card.Title>Online store</Card.Title>
+						    <Button variant="primary" href="https://ngcobo950.github.io/Musa/">click</Button>
 						  </Card.Body>
 						</Card>
 						</div>
 			
 						<div>
-						<Card style={{ width: '18rem' }}>
-						  <Card.Img variant="top" src={online} alt='snake' />
+						<Card style={{ width: '20rem' ,height: '24rem' }}>
+						  <Card.Img variant="top" src={snake_game} alt='snake' />
 						  <Card.Body>
 						    <Card.Title>Snake game</Card.Title>
-						    <Button variant="primary">click</Button>
+						    <Button variant="primary" href="https://musa-snake.herokuapp.com/">click</Button>
 						  </Card.Body>
 						</Card>
 						</div>

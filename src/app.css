@@ -25,6 +25,7 @@ a:hover{
 }
 #liso ,#lerato{
   background-color: white;
+  background-size: cover;
 }
 
 .row {
@@ -33,10 +34,35 @@ a:hover{
 }
 
 
- h4 , h3{
+ h4 , h3 , h5 {
     text-align :center; 
-    font-weight : bold;
+    font-weight :italic;
     text-decoration-style: initial;
     margin-top: 0;
     width: 50;
   }
+
+#sidebar2{
+    background-color: black;
+  }
+
+#pic{
+  margin-left: 40%;
+  margin-right: 50%px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+#font{
+  text-align: center;
+}
+
+ul ,li{
+  text-align: center;
+  list-style: none;
+}
+
+#social{
+  margin-left: 2%;
+  display: inline;
+}
