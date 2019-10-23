@@ -33,7 +33,7 @@ class Projects extends React.Component {
 						  <Card.Img variant="top" src={online} alt='Online' />
 						  <Card.Body>
 						    <Card.Title>Online store</Card.Title>
-						    <Button variant="primary" href="https://ngcobo950.github.io/Musa/" target="_blank">live demo</Button>
+						    <Button variant="primary" href="https://ngcobo950.github.io/Musa/" target="_blank" id="button">live demo</Button>
 						  </Card.Body>
 						</Card>
 						</div>
