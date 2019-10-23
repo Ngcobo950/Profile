@@ -23,7 +23,7 @@ class Projects extends React.Component {
 						 <Card.Img variant="top" src={weather} alt='weather' />
 						  <Card.Body>
 						    <Card.Title>Weather</Card.Title>
-						     <Button variant="primary" href="https://Ngcobo950.github.io/MusaWeather/">live demo</Button>
+						     <Button variant="primary" href="https://Ngcobo950.github.io/MusaWeather/" target="_blank">live demo</Button>
 						  </Card.Body>
 						</Card>
 					</div>
@@ -33,7 +33,7 @@ class Projects extends React.Component {
 						  <Card.Img variant="top" src={online} alt='Online' />
 						  <Card.Body>
 						    <Card.Title>Online store</Card.Title>
-						    <Button variant="primary" href="https://ngcobo950.github.io/Musa/">live demo</Button>
+						    <Button variant="primary" href="https://ngcobo950.github.io/Musa/" target="_blank">live demo</Button>
 						  </Card.Body>
 						</Card>
 						</div>
@@ -43,7 +43,7 @@ class Projects extends React.Component {
 						  <Card.Img variant="top" src={snake_game} alt='snake' />
 						  <Card.Body>
 						    <Card.Title>Snake game</Card.Title>
-						    <Button variant="primary" href="https://musa-snake.herokuapp.com/">live demo</Button>
+						    <Button variant="primary" href="https://musa-snake.herokuapp.com/" target="_blank">live demo</Button>
 						  </Card.Body>
 						</Card>
 						</div>
