@@ -18,7 +18,7 @@ class CV extends React.Component {
                 <Card.Img variant="top" src={cv} alt='CV' />
                   <Card.Body>
                   <Card.Title>CV</Card.Title>
-                 <Button variant="primary" href="https://ngcobo950.github.io/Online/">more</Button>
+                 <Button variant="primary" href="https://ngcobo950.github.io/Online/" target="_blank">view</Button>
                 </Card.Body>
               </Card>
 
@@ -26,7 +26,7 @@ class CV extends React.Component {
                 <Card.Img variant="top" src={cv} alt='CV' />
                   <Card.Body>
                   <Card.Title>QUALIFICATIONS</Card.Title>
-                 <Button variant="primary">more</Button>
+                 <Button variant="primary" target="_blank">view</Button>
                 </Card.Body>
               </Card>
             </Row>
